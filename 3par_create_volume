@@ -1,0 +1,37 @@
+##3par_cli_cmd
+##3par 9440
+##ID: 3paradm
+##PW: 3pardata
+
+showsys ---> S/N 
+showhost --> host list
+
+<host create>
+showhost -listpersona
+createhost -persona <os version> <WWN> <WWN>
+
+<EXPORT_3PAR>   -------------MAPPING_MSA
+
+showcpg -sdg  ---> raid info
+
+createvv <option>   option   -tpvv -> thin
+                              없으면 -> full volum
+
+
+createvv <option> <raid> <volume_name> <Disk capacity_name>
+
+showvv --> 확인
+
+<create vlun>
+
+create vlun <volume_name> <lun_num> <host_name>
+
+showvlun
+
+<volume_remove>
+
+unexport
+
+removevlun <volume_name> <lun_num> <host_name>
+
+showlun
