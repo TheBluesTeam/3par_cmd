@@ -22,7 +22,7 @@ createvv <option> <raid> <volume_name> <Disk capacity_name>
 
 showvv --> 확인
 
-<create vlun>
+<create vlun>    <--- 생성된 볼륨을 서버에 할당
 
 create vlun <volume_name> <lun_num> <host_name>
 
