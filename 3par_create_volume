@@ -8,7 +8,7 @@ showhost --> host list
 
 <host create>
 showhost -listpersona
-createhost -persona <os version> <host-name> <WWN>
+createhost -persona <os version> <host-name> <WWN> <WWN>
 
 <EXPORT_3PAR>   -------------MAPPING_MSA
 
@@ -18,7 +18,7 @@ createvv <option>   option   -tpvv -> thin
                               없으면 -> full volum
 
 
-createvv <option> <raid> <volume_name> <Disk capacity_name>
+createvv <option> <raid> <volume_name> <Disk capacity>
 
 showvv --> 확인
 
