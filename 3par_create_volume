@@ -8,7 +8,7 @@ showhost --> host list
 
 <host create>
 showhost -listpersona
-createhost -persona <os version> <WWN> <WWN>
+createhost -persona <os version> <host-name> <WWN>
 
 <EXPORT_3PAR>   -------------MAPPING_MSA
 
